@@ -4,10 +4,10 @@ attr_accessor :name
 
 @@all = []
   
-def initialize(name)
+  def initialize(name)
     @name = name
     @@all << self
- end
+   end
 
   def self.all
     @@all.each do |dog|
@@ -18,12 +18,4 @@ def initialize(name)
   def self.clear_all
     @@all.clear
   end
-  
-  
-  
-  
-  
-  
-  
-  
 end 
